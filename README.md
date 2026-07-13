@@ -4,10 +4,10 @@ This repository contains a robust, hybrid AI pipeline for extracting structured 
 
 ## Architecture: The "Hybrid Fallback" Approach
 
-To balance latency, cost, and high accuracy, this pipeline utilizes a two-step Agentic workflow using **FastAPI** and **LangGraph**:
+To balance latency, cost, and high accuracy, this pipeline utilizes a two-step Agentic workflow using **FastAPI** and **LangChain**:
 
 1. **The Fast Path (Custom ML):** We trained a lightweight, custom Named Entity Recognition (NER) model using `spaCy`. When a request comes in, the text is first processed by this model. It is extremely fast and cost-effective, handling the majority of standard extractions instantly.
-2. **The Smart Path (LLM Tool Calling Fallback):** Real-world e-commerce data is messy. If our primary ML model misses critical fields (like `Category`, `Fabric`, or `Color`), our LangGraph agent dynamically triggers a fallback to a Large Language Model (configured to use the lightning-fast **Cerebras API**). The LLM uses strict tool-calling to extract only the missing attributes. 
+2. **The Smart Path (LLM Tool Calling Fallback):** Real-world e-commerce data is messy. If our primary ML model misses critical fields, our agent dynamically triggers a fallback to a Large Language Model (configured to use the lightning-fast **Groq API** with Llama 3.3). The LLM uses a strict Anti-Hallucination prompt and Tool Calling to accurately extract only the missing attributes.
 
 This ensures we get the speed of a traditional trained model with the reasoning capabilities of modern GenAI for edge cases.
 
@@ -23,12 +23,12 @@ This ensures we get the speed of a traditional trained model with the reasoning 
 
 1. **Install dependencies:**
    ```bash
-   pip install fastapi uvicorn spacy scikit-learn langgraph langchain-openai pydantic
+   pip install fastapi uvicorn spacy scikit-learn langchain-groq pydantic
    ```
    *(Note: The custom spaCy model is already trained and saved in `/models/`)*
 
 ### 2. Set your Groq API Key
-We use the **Groq API** with the Llama 3.1 70B model as an intelligent fallback mechanism if the custom NER model misses critical fields. It is blazingly fast.
+We use the **Groq API** with the Llama 3.3 model as an intelligent fallback mechanism if the custom NER model misses fields. It is blazingly fast.
 
 ```bash
 # Windows
@@ -63,6 +63,11 @@ We evaluated the system on a holdout test set of 10 complex product descriptions
 - The LLM successfully catches the edge cases missed by the fast ML model.
 
 ### Common Failure Cases (When the LLM Fallback is disabled)
-1. **Implicit Categories:** Descriptions like "A perfect fit for your special day" might lack an explicit category (like "dress"). The ML model misses this, but the LLM fallback can infer it.
-2. **Color vs. Fabric Confusion:** Rare color names (e.g., "champagne", "ivory") can sometimes be misclassified if they were not sufficiently represented in the small training dataset. 
-3. **Overlapping Entities:** "Lace applique" might be tagged as a Fabric ("Lace") instead of an Embellishment. We handle this in the agent by prioritizing longer entity matches during training data preparation, but ambiguities remain.
+Because the custom ML model was trained on a small synthetic dataset (50 examples), it suffers from known ML limitations:
+1. **Label Confusion (Overfitting to Position):** The model occasionally tags a Color as a Length (e.g., tagging "Beautiful red" as a `Length`). It memorized word order templates rather than the semantic meaning of the words.
+2. **Missed Extractions (False Negatives):** It completely ignores attributes (like "halter neck") if that specific phrasing was not present in the tiny 50-item training set.
+3. **Boundary Detection Issues:** It struggles to predict the exact start and end of multi-word phrases (extracting "embroidery" instead of "floral embroidery").
+
+**How these are solved:**
+In this project, the **Groq Llama 3.3 GenAI Agent** acts as a safety net to catch and fix these errors using strict Guardrail Prompts to prevent hallucination. 
+In a pure-ML production environment, these issues would be solved by scaling the training dataset to 10,000+ real-world examples, introducing varied sentence structures, and potentially upgrading to a Transformer-based NER architecture (like `spaCy-transformers`).
