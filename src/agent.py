@@ -2,7 +2,7 @@ import os
 import spacy
 from pydantic import BaseModel, Field
 from typing import Optional, List, Dict, Any
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 
 # Load our custom trained spaCy model lazily
 nlp = None
@@ -28,7 +28,7 @@ class ProductAttributes(BaseModel):
 class ExtractionAgent:
     def __init__(self):
         api_key = os.environ.get("GROQ_API_KEY", "")
-        self.llm = ChatOpenAI(api_key=api_key, base_url="https://api.groq.com/openai/v1", model="llama-3.1-70b-versatile", temperature=0)
+        self.llm = ChatGroq(api_key=api_key, model="llama-3.1-8b-instant", temperature=0)
         self.use_llm = bool(api_key)  
     def extract_with_spacy(self, text: str) -> dict:
         model = get_nlp()
