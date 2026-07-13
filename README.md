@@ -27,21 +27,18 @@ This ensures we get the speed of a traditional trained model with the reasoning 
    ```
    *(Note: The custom spaCy model is already trained and saved in `/models/`)*
 
-2. **Set your API Key (for the LLM fallback):**
-   This project uses Cerebras for ultra-low latency LLM inference.
-   **Windows (PowerShell):**
-   ```powershell
-   $env:CEREBRAS_API_KEY="your-api-key-here"
-   ```
-   **Mac/Linux:**
-   ```bash
-   export CEREBRAS_API_KEY="your-api-key-here"
-   ```
+### 2. Set your Groq API Key
+We use the **Groq API** with the Llama 3.1 70B model as an intelligent fallback mechanism if the custom NER model misses critical fields. It is blazingly fast.
 
-3. **Start the FastAPI server:**
-   ```bash
-   python -m uvicorn src.api:app --reload
-   ```
+```bash
+# Windows
+$env:GROQ_API_KEY="your_groq_api_key"
+```
+
+### 3. Run the API
+```bash
+python -m uvicorn src.api:app --reload
+```
 
 4. **Test the API:**
    Send a POST request to `http://127.0.0.1:8000/extract`:
