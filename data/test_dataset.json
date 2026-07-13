@@ -1,0 +1,152 @@
+[
+    {
+        "text": "Blush pink lace wedding dress with off shoulder, square neckline, and beaded bodice",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "wedding dress",
+            "Neckline": "square neckline",
+            "Length": "tea length",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "off shoulder",
+            "Silhouette": "sheath",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Floor length organza wedding dress in ivory featuring a V neckline and puff sleeves",
+        "attributes": {
+            "Fabric": "organza",
+            "Category": "wedding dress",
+            "Neckline": "V neckline",
+            "Length": "floor length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "floral embroidery"
+        }
+    },
+    {
+        "text": "Elegant maxi ball gown cocktail dress featuring short sleeves and a sweetheart neckline in royal blue",
+        "attributes": {
+            "Fabric": "cotton",
+            "Category": "cocktail dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "maxi",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "ball gown",
+            "Embellishment": "lace applique"
+        }
+    },
+    {
+        "text": "Emerald green chiffon dress with strapless, V neckline, and ruffles",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "dress",
+            "Neckline": "V neckline",
+            "Length": "maxi",
+            "Color": [
+                "emerald green"
+            ],
+            "Sleeve": "strapless",
+            "Silhouette": "A line",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "A line prom dress with side slit and sweetheart neckline, made of beautiful lace",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "prom dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "floor length",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "A line",
+            "Embellishment": "side slit"
+        }
+    },
+    {
+        "text": "Mermaid evening gown with beaded bodice and V neckline, made of beautiful tulle",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "evening gown",
+            "Neckline": "V neckline",
+            "Length": "midi length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "strapless",
+            "Silhouette": "mermaid",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Ball gown prom dress with ruffles and V neckline, made of beautiful lace",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "prom dress",
+            "Neckline": "V neckline",
+            "Length": "short",
+            "Color": [
+                "champagne"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "ball gown",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Elegant floor length A line gown featuring puff sleeves and a illusion neckline in ivory",
+        "attributes": {
+            "Fabric": "velvet",
+            "Category": "gown",
+            "Neckline": "illusion neckline",
+            "Length": "floor length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "A line",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Midi length tulle gown in royal blue featuring a halter and puff sleeves",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "gown",
+            "Neckline": "halter",
+            "Length": "midi length",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "mermaid",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Elegant midi length sheath prom dress featuring puff sleeves and a square neckline in black",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "prom dress",
+            "Neckline": "square neckline",
+            "Length": "midi length",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "side slit"
+        }
+    }
+]

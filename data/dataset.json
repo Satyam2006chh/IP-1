@@ -1,0 +1,852 @@
+[
+    {
+        "text": "Floor length chiffon bridesmaid dress with pleated bodice and V neckline available in sage and dusty blue",
+        "attributes": {
+            "Length": "Floor length",
+            "Fabric": "chiffon",
+            "Category": "bridesmaid dress",
+            "Neckline": "V neckline",
+            "Color": [
+                "sage",
+                "dusty blue"
+            ]
+        }
+    },
+    {
+        "text": "Sparkly sequin fitted prom gown featuring a deep illusion neckline and open back",
+        "attributes": {
+            "Fabric": "sequin",
+            "Category": "prom gown",
+            "Neckline": "illusion neckline",
+            "Silhouette": "fitted",
+            "Embellishment": "open back"
+        }
+    },
+    {
+        "text": "Off shoulder satin ball gown with corset bodice and sweep train in royal navy",
+        "attributes": {
+            "Sleeve": "Off shoulder",
+            "Fabric": "satin",
+            "Category": "ball gown",
+            "Color": [
+                "royal navy"
+            ],
+            "Embellishment": "corset bodice"
+        }
+    },
+    {
+        "text": "Lace mermaid wedding dress with long sleeves and scalloped hem",
+        "attributes": {
+            "Fabric": "Lace",
+            "Category": "wedding dress",
+            "Silhouette": "mermaid",
+            "Sleeve": "long sleeves",
+            "Embellishment": "scalloped hem"
+        }
+    },
+    {
+        "text": "Short cocktail dress with feather trim and beaded waist detail",
+        "attributes": {
+            "Length": "Short",
+            "Category": "cocktail dress",
+            "Embellishment": "feather trim"
+        }
+    },
+    {
+        "text": "Tulle A line evening gown with floral embroidery and cap sleeves",
+        "attributes": {
+            "Fabric": "Tulle",
+            "Silhouette": "A line",
+            "Category": "evening gown",
+            "Embellishment": "floral embroidery",
+            "Sleeve": "cap sleeves"
+        }
+    },
+    {
+        "text": "Stretch jersey sheath dress with ruched waist and side slit",
+        "attributes": {
+            "Fabric": "Stretch jersey",
+            "Silhouette": "sheath",
+            "Category": "dress",
+            "Embellishment": "ruched waist"
+        }
+    },
+    {
+        "text": "Strapless sweetheart neckline glitter gown with layered skirt",
+        "attributes": {
+            "Sleeve": "Strapless",
+            "Neckline": "sweetheart neckline",
+            "Fabric": "glitter",
+            "Category": "gown",
+            "Embellishment": "layered skirt"
+        }
+    },
+    {
+        "text": "One shoulder draped chiffon dress with high slit and empire waist",
+        "attributes": {
+            "Sleeve": "One shoulder",
+            "Fabric": "chiffon",
+            "Category": "dress",
+            "Embellishment": "high slit"
+        }
+    },
+    {
+        "text": "Velvet winter formal dress with square neckline and puff sleeves",
+        "attributes": {
+            "Fabric": "Velvet",
+            "Category": "formal dress",
+            "Neckline": "square neckline",
+            "Sleeve": "puff sleeves"
+        }
+    },
+    {
+        "text": "Midi length satin dress in blush pink featuring a illusion neckline and short sleeves",
+        "attributes": {
+            "Fabric": "satin",
+            "Category": "dress",
+            "Neckline": "illusion neckline",
+            "Length": "midi length",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "mermaid",
+            "Embellishment": "sequin details"
+        }
+    },
+    {
+        "text": "Floor length satin bridesmaid dress in red featuring a halter and long sleeves",
+        "attributes": {
+            "Fabric": "satin",
+            "Category": "bridesmaid dress",
+            "Neckline": "halter",
+            "Length": "floor length",
+            "Color": [
+                "red"
+            ],
+            "Sleeve": "long sleeves",
+            "Silhouette": "mermaid",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Ivory tulle evening gown with short sleeves, illusion neckline, and lace applique",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "evening gown",
+            "Neckline": "illusion neckline",
+            "Length": "maxi",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "ball gown",
+            "Embellishment": "lace applique"
+        }
+    },
+    {
+        "text": "Sheath cocktail dress with beaded bodice and sweetheart neckline, made of beautiful chiffon",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "cocktail dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "maxi",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Black cotton dress with cap sleeves, V neckline, and lace applique",
+        "attributes": {
+            "Fabric": "cotton",
+            "Category": "dress",
+            "Neckline": "V neckline",
+            "Length": "knee length",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "lace applique"
+        }
+    },
+    {
+        "text": "Black chiffon evening gown with sleeveless, halter, and lace applique",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "evening gown",
+            "Neckline": "halter",
+            "Length": "tea length",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "sleeveless",
+            "Silhouette": "A line",
+            "Embellishment": "lace applique"
+        }
+    },
+    {
+        "text": "Black cotton bridesmaid dress with long sleeves, sweetheart neckline, and ruffles",
+        "attributes": {
+            "Fabric": "cotton",
+            "Category": "bridesmaid dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "maxi",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "long sleeves",
+            "Silhouette": "mermaid",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Ivory satin cocktail dress with cap sleeves, sweetheart neckline, and sequin details",
+        "attributes": {
+            "Fabric": "satin",
+            "Category": "cocktail dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "floor length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "ball gown",
+            "Embellishment": "sequin details"
+        }
+    },
+    {
+        "text": "A line wedding dress with lace applique and square neckline, made of beautiful lace",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "wedding dress",
+            "Neckline": "square neckline",
+            "Length": "short",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "off shoulder",
+            "Silhouette": "A line",
+            "Embellishment": "lace applique"
+        }
+    },
+    {
+        "text": "Royal blue tulle gown with off shoulder, halter, and beaded bodice",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "gown",
+            "Neckline": "halter",
+            "Length": "knee length",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "off shoulder",
+            "Silhouette": "fitted",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Ivory chiffon gown with cap sleeves, V neckline, and beaded bodice",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "gown",
+            "Neckline": "V neckline",
+            "Length": "midi length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "A line",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Sheath evening gown with beaded bodice and halter, made of beautiful tulle",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "evening gown",
+            "Neckline": "halter",
+            "Length": "knee length",
+            "Color": [
+                "burgundy"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Elegant knee length mermaid evening gown featuring cap sleeves and a scoop neckline in ivory",
+        "attributes": {
+            "Fabric": "velvet",
+            "Category": "evening gown",
+            "Neckline": "scoop neckline",
+            "Length": "knee length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "mermaid",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Elegant floor length mermaid cocktail dress featuring off shoulder and a V neckline in emerald green",
+        "attributes": {
+            "Fabric": "satin",
+            "Category": "cocktail dress",
+            "Neckline": "V neckline",
+            "Length": "floor length",
+            "Color": [
+                "emerald green"
+            ],
+            "Sleeve": "off shoulder",
+            "Silhouette": "mermaid",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Tea length satin prom dress in burgundy featuring a halter and strapless",
+        "attributes": {
+            "Fabric": "satin",
+            "Category": "prom dress",
+            "Neckline": "halter",
+            "Length": "tea length",
+            "Color": [
+                "burgundy"
+            ],
+            "Sleeve": "strapless",
+            "Silhouette": "sheath",
+            "Embellishment": "lace applique"
+        }
+    },
+    {
+        "text": "Sheath evening gown with open back and scoop neckline, made of beautiful satin",
+        "attributes": {
+            "Fabric": "satin",
+            "Category": "evening gown",
+            "Neckline": "scoop neckline",
+            "Length": "midi length",
+            "Color": [
+                "champagne"
+            ],
+            "Sleeve": "long sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "open back"
+        }
+    },
+    {
+        "text": "Maxi organza dress in royal blue featuring a illusion neckline and strapless",
+        "attributes": {
+            "Fabric": "organza",
+            "Category": "dress",
+            "Neckline": "illusion neckline",
+            "Length": "maxi",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "strapless",
+            "Silhouette": "mermaid",
+            "Embellishment": "lace applique"
+        }
+    },
+    {
+        "text": "Sheath cocktail dress with ruffles and illusion neckline, made of beautiful velvet",
+        "attributes": {
+            "Fabric": "velvet",
+            "Category": "cocktail dress",
+            "Neckline": "illusion neckline",
+            "Length": "tea length",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Red chiffon bridesmaid dress with long sleeves, square neckline, and ruffles",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "bridesmaid dress",
+            "Neckline": "square neckline",
+            "Length": "knee length",
+            "Color": [
+                "red"
+            ],
+            "Sleeve": "long sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Tea length tulle dress in black featuring a sweetheart neckline and long sleeves",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "tea length",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "long sleeves",
+            "Silhouette": "ball gown",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Elegant knee length fitted gown featuring cap sleeves and a illusion neckline in emerald green",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "gown",
+            "Neckline": "illusion neckline",
+            "Length": "knee length",
+            "Color": [
+                "emerald green"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "fitted",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Blush pink tulle bridesmaid dress with off shoulder, illusion neckline, and open back",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "bridesmaid dress",
+            "Neckline": "illusion neckline",
+            "Length": "maxi",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "off shoulder",
+            "Silhouette": "sheath",
+            "Embellishment": "open back"
+        }
+    },
+    {
+        "text": "Floor length organza bridesmaid dress in blush pink featuring a halter and short sleeves",
+        "attributes": {
+            "Fabric": "organza",
+            "Category": "bridesmaid dress",
+            "Neckline": "halter",
+            "Length": "floor length",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "A line",
+            "Embellishment": "side slit"
+        }
+    },
+    {
+        "text": "Floor length tulle bridesmaid dress in black featuring a sweetheart neckline and off shoulder",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "bridesmaid dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "floor length",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "off shoulder",
+            "Silhouette": "A line",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Ball gown cocktail dress with beaded bodice and square neckline, made of beautiful chiffon",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "cocktail dress",
+            "Neckline": "square neckline",
+            "Length": "floor length",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "ball gown",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Elegant knee length A line gown featuring long sleeves and a halter in blush pink",
+        "attributes": {
+            "Fabric": "organza",
+            "Category": "gown",
+            "Neckline": "halter",
+            "Length": "knee length",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "long sleeves",
+            "Silhouette": "A line",
+            "Embellishment": "sequin details"
+        }
+    },
+    {
+        "text": "Elegant knee length A line prom dress featuring off shoulder and a halter in red",
+        "attributes": {
+            "Fabric": "cotton",
+            "Category": "prom dress",
+            "Neckline": "halter",
+            "Length": "knee length",
+            "Color": [
+                "red"
+            ],
+            "Sleeve": "off shoulder",
+            "Silhouette": "A line",
+            "Embellishment": "floral embroidery"
+        }
+    },
+    {
+        "text": "Fitted cocktail dress with open back and V neckline, made of beautiful cotton",
+        "attributes": {
+            "Fabric": "cotton",
+            "Category": "cocktail dress",
+            "Neckline": "V neckline",
+            "Length": "short",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "fitted",
+            "Embellishment": "open back"
+        }
+    },
+    {
+        "text": "Knee length silk gown in blush pink featuring a square neckline and puff sleeves",
+        "attributes": {
+            "Fabric": "silk",
+            "Category": "gown",
+            "Neckline": "square neckline",
+            "Length": "knee length",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "A line",
+            "Embellishment": "open back"
+        }
+    },
+    {
+        "text": "Elegant floor length mermaid evening gown featuring puff sleeves and a scoop neckline in black",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "evening gown",
+            "Neckline": "scoop neckline",
+            "Length": "floor length",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "mermaid",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Elegant knee length ball gown prom dress featuring short sleeves and a sweetheart neckline in red",
+        "attributes": {
+            "Fabric": "organza",
+            "Category": "prom dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "knee length",
+            "Color": [
+                "red"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "ball gown",
+            "Embellishment": "floral embroidery"
+        }
+    },
+    {
+        "text": "Elegant midi length fitted cocktail dress featuring off shoulder and a halter in ivory",
+        "attributes": {
+            "Fabric": "velvet",
+            "Category": "cocktail dress",
+            "Neckline": "halter",
+            "Length": "midi length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "off shoulder",
+            "Silhouette": "fitted",
+            "Embellishment": "sequin details"
+        }
+    },
+    {
+        "text": "Red lace gown with strapless, square neckline, and floral embroidery",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "gown",
+            "Neckline": "square neckline",
+            "Length": "short",
+            "Color": [
+                "red"
+            ],
+            "Sleeve": "strapless",
+            "Silhouette": "fitted",
+            "Embellishment": "floral embroidery"
+        }
+    },
+    {
+        "text": "Fitted dress with floral embroidery and scoop neckline, made of beautiful chiffon",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "dress",
+            "Neckline": "scoop neckline",
+            "Length": "knee length",
+            "Color": [
+                "emerald green"
+            ],
+            "Sleeve": "long sleeves",
+            "Silhouette": "fitted",
+            "Embellishment": "floral embroidery"
+        }
+    },
+    {
+        "text": "A line bridesmaid dress with lace applique and V neckline, made of beautiful satin",
+        "attributes": {
+            "Fabric": "satin",
+            "Category": "bridesmaid dress",
+            "Neckline": "V neckline",
+            "Length": "maxi",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "sleeveless",
+            "Silhouette": "A line",
+            "Embellishment": "lace applique"
+        }
+    },
+    {
+        "text": "Champagne chiffon bridesmaid dress with cap sleeves, V neckline, and sequin details",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "bridesmaid dress",
+            "Neckline": "V neckline",
+            "Length": "knee length",
+            "Color": [
+                "champagne"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "mermaid",
+            "Embellishment": "sequin details"
+        }
+    },
+    {
+        "text": "Short tulle wedding dress in royal blue featuring a halter and sleeveless",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "wedding dress",
+            "Neckline": "halter",
+            "Length": "short",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "sleeveless",
+            "Silhouette": "sheath",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Black chiffon prom dress with long sleeves, scoop neckline, and beaded bodice",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "prom dress",
+            "Neckline": "scoop neckline",
+            "Length": "tea length",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "long sleeves",
+            "Silhouette": "fitted",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Champagne lace wedding dress with cap sleeves, V neckline, and open back",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "wedding dress",
+            "Neckline": "V neckline",
+            "Length": "short",
+            "Color": [
+                "champagne"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "mermaid",
+            "Embellishment": "open back"
+        }
+    },
+    {
+        "text": "Midi length chiffon evening gown in black featuring a scoop neckline and short sleeves",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "evening gown",
+            "Neckline": "scoop neckline",
+            "Length": "midi length",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "floral embroidery"
+        }
+    },
+    {
+        "text": "Blush pink lace wedding dress with off shoulder, square neckline, and beaded bodice",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "wedding dress",
+            "Neckline": "square neckline",
+            "Length": "tea length",
+            "Color": [
+                "blush pink"
+            ],
+            "Sleeve": "off shoulder",
+            "Silhouette": "sheath",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Floor length organza wedding dress in ivory featuring a V neckline and puff sleeves",
+        "attributes": {
+            "Fabric": "organza",
+            "Category": "wedding dress",
+            "Neckline": "V neckline",
+            "Length": "floor length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "floral embroidery"
+        }
+    },
+    {
+        "text": "Elegant maxi ball gown cocktail dress featuring short sleeves and a sweetheart neckline in royal blue",
+        "attributes": {
+            "Fabric": "cotton",
+            "Category": "cocktail dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "maxi",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "short sleeves",
+            "Silhouette": "ball gown",
+            "Embellishment": "lace applique"
+        }
+    },
+    {
+        "text": "Emerald green chiffon dress with strapless, V neckline, and ruffles",
+        "attributes": {
+            "Fabric": "chiffon",
+            "Category": "dress",
+            "Neckline": "V neckline",
+            "Length": "maxi",
+            "Color": [
+                "emerald green"
+            ],
+            "Sleeve": "strapless",
+            "Silhouette": "A line",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "A line prom dress with side slit and sweetheart neckline, made of beautiful lace",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "prom dress",
+            "Neckline": "sweetheart neckline",
+            "Length": "floor length",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "cap sleeves",
+            "Silhouette": "A line",
+            "Embellishment": "side slit"
+        }
+    },
+    {
+        "text": "Mermaid evening gown with beaded bodice and V neckline, made of beautiful tulle",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "evening gown",
+            "Neckline": "V neckline",
+            "Length": "midi length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "strapless",
+            "Silhouette": "mermaid",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Ball gown prom dress with ruffles and V neckline, made of beautiful lace",
+        "attributes": {
+            "Fabric": "lace",
+            "Category": "prom dress",
+            "Neckline": "V neckline",
+            "Length": "short",
+            "Color": [
+                "champagne"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "ball gown",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Elegant floor length A line gown featuring puff sleeves and a illusion neckline in ivory",
+        "attributes": {
+            "Fabric": "velvet",
+            "Category": "gown",
+            "Neckline": "illusion neckline",
+            "Length": "floor length",
+            "Color": [
+                "ivory"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "A line",
+            "Embellishment": "ruffles"
+        }
+    },
+    {
+        "text": "Midi length tulle gown in royal blue featuring a halter and puff sleeves",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "gown",
+            "Neckline": "halter",
+            "Length": "midi length",
+            "Color": [
+                "royal blue"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "mermaid",
+            "Embellishment": "beaded bodice"
+        }
+    },
+    {
+        "text": "Elegant midi length sheath prom dress featuring puff sleeves and a square neckline in black",
+        "attributes": {
+            "Fabric": "tulle",
+            "Category": "prom dress",
+            "Neckline": "square neckline",
+            "Length": "midi length",
+            "Color": [
+                "black"
+            ],
+            "Sleeve": "puff sleeves",
+            "Silhouette": "sheath",
+            "Embellishment": "side slit"
+        }
+    }
+]
